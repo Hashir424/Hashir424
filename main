@@ -1,0 +1,49 @@
+class Person {
+    int age;
+    ArrayList<Parties> parties;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public ArrayList<Parties> getParties() {
+        return parties;
+    }
+
+    public void setParties(ArrayList<Parties> parties) {
+        this.parties = parties;
+    }
+}
+
+
+class Parties {
+    private int date, month, year;
+
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+}
