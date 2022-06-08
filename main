@@ -2,7 +2,7 @@ class Person {
     int age;
     ArrayList<Parties> parties;
 
-    public int getAge() {
+    public int getAgeeeeeeeeeeeeeeeeeeeeee() {
         return age;
     }
 
